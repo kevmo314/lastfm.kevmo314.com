@@ -1,0 +1,105 @@
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	font:0.7em Tahoma, Verdana, "sans-serif";
+	font-size:10pt;
+	color:#666;
+}
+p {
+	margin-bottom:1em;
+}
+a {
+	text-decoration:none;
+	color:#A66;
+}
+th {
+	border-bottom:1px solid #AAA;
+	margin:0;
+}
+#results tr:hover {
+	background-color:#DDD;
+}
+#recommendation-form {
+	padding:20px;
+	background-color:#EEE;
+}
+#header, #content, #footer, #scoreboard {
+	width:960px;
+	margin:0 auto;
+	padding:0 20px;
+}
+#header {
+	background:#000 url(header.jpg) top left repeat-x;
+	color:#FFF;
+	height:43px;
+	padding-top:5px;
+	text-shadow:0px 2px 3px #555;
+}
+#content {
+	padding:2em 19px;
+	background-color:#F7F7F7;
+	border:1px solid #999;
+	border-top:none;
+}
+#results {
+	width:100%;
+	text-align:center;
+	margin-top:1em;
+	border-collapse:collapse;
+}
+#scoreboard {
+	margin-top:2em;
+	margin-bottom:2em;
+	font-size:70%;
+}
+#scores {
+	width:50%;
+	margin:0 auto;
+	text-align:left;
+	border-collapse:collapse;
+}
+#footer {
+	margin-top:1em;
+	text-align:center;
+	font-size:8pt;
+}
+fieldset {
+	padding:1em;
+	margin-bottom:1em;
+}
+input[type=submit] {
+	padding:2px 5px;
+}
+#progressbar {
+	position:relative;
+}
+#progress-message {
+	position:absolute;
+	top:5px;
+	left:0;
+	text-align:center;
+	font-weight:bold;
+	width:100%;
+}
+.ui-state-error, .ui-state-highlight {
+	padding-top:5px;
+	text-align:center;
+	font-weight:bold;
+	height:25px;
+}
+.name {
+	width:50%;
+}
+.artist {
+	width:25%;
+}
+.playcount {
+	width:10%;
+}
+#share {
+	text-align:center;
+	font-size:80%;
+	margin-bottom:1em;
+}
